@@ -3,7 +3,7 @@ import gradio as gr
 from sklearn.ensemble import RandomForestClassifier
 
 # Load dataset from Vishal's GitHub raw link
-url = "https://raw.githubusercontent.com/VishalBhagat01/Diabetes/main/diabetes.csv"
+url = "https://raw.githubusercontent.com/Garvitpujari/ml-model-deploy/main/diabetes.csv"
 df = pd.read_csv(url)
 
 # Split into features and target
